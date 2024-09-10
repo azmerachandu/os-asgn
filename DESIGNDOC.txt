@@ -3,7 +3,8 @@ Group 32
 Project Contributors: Mohan Kishore Chilukuri         
                       Aditya Pandiri         
                       Gitanjali Gupta         
-                      Neeraj Boddeda
+                      Azmera ChandraMani
+            
 
 MAIN THREAD:
 This thread is the main thread where all the initialisation gets done. The  graph is read from the file and placed in an adjacency list. The common nodes number between any nodes are precomputed and stored here. Nodes are given priority bit randomly. The threads of pushUpdate, userSimulator are initialised and joined to the main thread here.
